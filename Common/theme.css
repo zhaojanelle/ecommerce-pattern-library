@@ -6,6 +6,10 @@
   --color-accent-blue: #0055A6;
   --color-neutral-grey: #F5F5F5;
 
-  --font-primary:;
-  --font-secondary:;
+  --font-primary: "Freight Text", Georgia, serif;
+  --font-secondary:"Futura", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
 }
