@@ -1,0 +1,18 @@
+.btn {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  font-family: Futura-pt;
+  font-weight: 300;
+  color: #fff;
+  border-radius: 0;
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease 0s;
+  text-transform: lowercase;
+}
+
+.btn-accent {
+  background-color: var(--color-accent-orange);
+  border-color: var(--color-accent-orange);
+
+  color: #fff;
+}
