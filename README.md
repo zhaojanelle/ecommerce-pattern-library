@@ -1,7 +1,6 @@
 ---
 name: "Willow Corp"
 fontUrl: "https://use.typekit.net/yus0tfo.css"
----
 
 fonts:
   primary: |
@@ -24,4 +23,5 @@ colors:
   neutral: |
     The neutral color is a very light shade of grey to be used whenever it is needed.
 
+---
 Willow is a digital only ecommerce shop that delivers beautiful plants to people's homes.
