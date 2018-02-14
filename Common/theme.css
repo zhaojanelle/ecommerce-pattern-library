@@ -1,10 +1,11 @@
 :root {
   --color-primary: #7BA57C;
-  --color-primary-dark: #454443;
+  --color-primary-dark: #2B705E;
   --color-primary-light: #e1ebe2;
   --color-secondary: #0055a6;
   --color-accent-orange: #dd715d;
   --color-neutral-grey: #f5f5f5;
+  --color-dark-grey: #454443;
   --font-primary: "Futura", sans-serif;
   --font-secondary: "Freight Text", georgia, serif;
 }
