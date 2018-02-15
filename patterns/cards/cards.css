@@ -1,0 +1,18 @@
+.blog-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: all .2s ease 0s;
+  background-color: var(--color-lighter-grey);
+}
+
+.blog-card:hover {
+  transform: translateY(-2px);
+}
+
+.category-card {
+  position: relative;
+}
+
+.category-content {
+  position: absolute;
+}
