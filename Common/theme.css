@@ -60,7 +60,7 @@ h6 {
 
 a {
   font-family: var(--font-primary);
-  color: var(--color-dark-grey);
+  color: var(--color-primary-dark);
   font-size: 1rem;
   font-weight: 400;
   text-decoration: none;
@@ -68,5 +68,6 @@ a {
 
 a:hover {
   font-family: var(--font-primary);
-  color: var(--color-primary-dark);
+  color: var(--color-dark-grey);
+  border-bottom: 3px var(--color-accent-light) solid;
 }
