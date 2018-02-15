@@ -52,6 +52,11 @@ h6 {
   font-weight: 400;
 }
 
+p {
+  font-family: var(--font-primary);
+  color: var(--color-dark-grey);
+}
+
 a {
   font-family: var(--font-primary);
   color: var(--color-primary-dark);
@@ -67,12 +72,22 @@ a:hover {
 
 em {
   font-weight: 700;
+  font-style: normal;
 }
 
 strong {
+  font-weight: 700;
   text-transform: uppercase;
 }
 
- i {
+i {
    font-style: italic;
  }
+
+b {
+  font-weight: 700;
+}
+
+mark {
+  background-color: var(--color-accent-light)
+}
