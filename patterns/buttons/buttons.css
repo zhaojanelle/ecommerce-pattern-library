@@ -17,12 +17,12 @@
 }
 
 .btn-accent {
-  background-color: var(--color-accent-orange);
-  border-color: var(--color-accent-orange);
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
   color: #fff;
 }
 
 .btn-accent:hover {
-  background-color: var(--color-accent-orange);
-  border-color: var(--color-accent-orange);
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
 }

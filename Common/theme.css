@@ -3,7 +3,8 @@
   --color-primary-dark: #2b705e;
   --color-primary-light: #e1ebe2;
   --color-secondary: #0055a6;
-  --color-accent-orange: #dd715d;
+  --color-accent: #dd715d;
+  --color-accent-light: #de9f38;
   --color-neutral-grey: #f5f5f5;
   --color-dark-grey: #454443;
   --font-primary: "Futura-PT", sans-serif;
@@ -30,6 +31,13 @@ h2 {
 }
 
 h3 {
+  font-family: var(--font-secondary);
+  color: var(--color-dark-grey);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+h4 {
   font-family: var(--font-secondary);
   color: var(--color-dark-grey);
   font-size: 1.25rem;
