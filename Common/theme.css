@@ -5,7 +5,8 @@
   --color-secondary: #0055a6;
   --color-accent: #dd715d;
   --color-accent-light: #de9f38;
-  --color-neutral-grey: #f5f5f5;
+  --color-light-grey: #f5f5f5;
+  --color-grey: #7e7e7e;
   --color-dark-grey: #454443;
   --font-primary: "Futura-PT", sans-serif;
   --font-secondary: "Freight Text", georgia, serif;
@@ -48,7 +49,7 @@ h5 {
 
 h6 {
   font-family: var(--font-secondary);
-  color: var(--color-neutral-grey);
+  color: var(--color-light-grey);
   font-weight: 400;
 }
 
@@ -90,4 +91,9 @@ b {
 
 mark {
   background-color: var(--color-accent-light)
+}
+
+cite {
+  font-family: var(--font-secondary);
+  color: var(--color-grey);
 }
