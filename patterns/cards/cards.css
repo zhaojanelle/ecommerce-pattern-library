@@ -11,8 +11,15 @@
 
 .category-card {
   position: relative;
+  max-width: 544px;
 }
 
 .category-content {
   position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.small-arrow {
+  background-image: url("../../images/small-arrow.svg");
 }
