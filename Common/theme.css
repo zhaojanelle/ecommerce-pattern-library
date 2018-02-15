@@ -57,3 +57,16 @@ h6 {
   font-size: 1rem;
   font-weight: 400;
 }
+
+a {
+  font-family: var(--font-primary);
+  color: var(--color-dark-grey);
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: var(--font-primary);
+  color: var(--color-primary-dark);
+}
