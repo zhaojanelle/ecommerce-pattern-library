@@ -18,14 +18,12 @@ html {
 h1 {
   font-family: var(--font-secondary);
   color: var(--color-secondary);
-  font-size: 4rem;
   font-weight: 500;
 }
 
 h2 {
   font-family: var(--font-primary);
   color: var(--color-primary-dark);
-  font-size: 2rem;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -33,35 +31,30 @@ h2 {
 h3 {
   font-family: var(--font-secondary);
   color: var(--color-dark-grey);
-  font-size: 1.25rem;
   font-weight: 700;
 }
 
 h4 {
   font-family: var(--font-secondary);
   color: var(--color-accent-light);
-  font-size: 1.25rem;
   font-weight: 700;
 }
 
 h5 {
   font-family: var(--font-primary);
   color: var(--color-dark-grey);
-  font-size: 1.15rem;
   font-weight: 500;
 }
 
 h6 {
   font-family: var(--font-secondary);
   color: var(--color-neutral-grey);
-  font-size: 1rem;
   font-weight: 400;
 }
 
 a {
   font-family: var(--font-primary);
   color: var(--color-primary-dark);
-  font-size: 1rem;
   font-weight: 400;
   text-decoration: none;
 }
@@ -71,3 +64,15 @@ a:hover {
   color: var(--color-dark-grey);
   border-bottom: 3px var(--color-accent-light) solid;
 }
+
+em {
+  font-weight: 700;
+}
+
+strong {
+  text-transform: uppercase;
+}
+
+ i {
+   font-style: italic;
+ }
