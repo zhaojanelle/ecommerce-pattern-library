@@ -39,7 +39,21 @@ h3 {
 
 h4 {
   font-family: var(--font-secondary);
-  color: var(--color-dark-grey);
+  color: var(--color-accent-light);
   font-size: 1.25rem;
   font-weight: 700;
+}
+
+h5 {
+  font-family: var(--font-primary);
+  color: var(--color-dark-grey);
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-neutral-grey);
+  font-size: 1rem;
+  font-weight: 400;
 }
