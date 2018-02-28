@@ -1,0 +1,49 @@
+.flag-optional {
+  color: #999;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+}
+
+.error-message {
+  display: none;
+  background-color: #fee;
+  color: #c33;
+}
+
+.error-message-highlighted {
+  background-color: #c33;
+  color: #fff;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}
+
+label {
+  font-family: var(--font-secondary);
+  color: var(--color-dark-grey);
+  font-size: 1.15rem;
+}
+
+select {
+  border: 2px solid var(--color-grey);
+  background-image: url(../../images/form-downarrow.svg);
+  background-size: 13px auto;
+  height: calc(2rem + .175rem + .175rem);
+}
+
+input {
+  background-color: var(--color-lighter-grey);
+  border: none;
+  height: calc(2rem + .175rem + .175rem);
+}
+
+input:focus {
+  border-bottom: 2px solid var(--color-grey);
+  background-color: #fff;
+}
