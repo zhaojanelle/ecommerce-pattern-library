@@ -15,6 +15,9 @@
 
 .error-message-highlighted {
   background-color: #c33;
+}
+
+.error-message-highlighted h6 {
   color: #fff;
 }
 

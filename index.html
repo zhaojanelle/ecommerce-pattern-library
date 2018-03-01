@@ -994,6 +994,7 @@
         <ol class="list-group-inline push-1-4 pad-b-1-4">
             <li><a href="#forms--checkbox-form">Checkbox form</a></li>
             <li><a href="#forms--dropdown-form">Dropdown form</a></li>
+            <li><a href="#forms--error-form">Error form</a></li>
             <li><a href="#forms--newsletter-form">Newsletter form</a></li>
             <li><a href="#forms--text-form">Text form</a></li>
         </ol>
@@ -1149,39 +1150,98 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-dropdown-form-code-sample-copy-chunk">&lt;form class="island max-length" action="index.html" method="post" novalidate=""&gt;
-  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
-    &lt;h6 class="push-0 tera">
+              <code><pre id="forms-dropdown-form-code-sample-copy-chunk">&lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive"&gt;
+  &lt;h6 class="push-0 tera">
      &lt;span class="icon-label">Please select a province&lt;/span>
    &lt;/h6>
-  &lt;/div>
+&lt;/div>
 
-  &lt;div class="push-1-2">
-    &lt;label class="push-1-4" for="name">Provinces&lt;/label>
-    &lt;select id="province" required aria-describedby="dropdown-error">
-      &lt;option value="">Alberta&lt;/option>
-      &lt;option value="">British Columbia&lt;/option>
-      &lt;option value="">Manitoba&lt;/option>
-      &lt;option value="">New Brunswick&lt;/option>
-      &lt;option value="">Newfoundland and Labrador&lt;/option>
-      &lt;option value="">Northwest Territories&lt;/option>
-      &lt;option value="">Nova Scotia&lt;/option>
-      &lt;option value="">Nunavut&lt;/option>
-      &lt;option value="">Ontario&lt;/option>
-      &lt;option value="">Prince Edward Island&lt;/option>
-      &lt;option value="">Quebec&lt;/option>
-      &lt;option value="">Saskatchewan&lt;/option>
-      &lt;option value="">Yukon&lt;/option>
-    &lt;/select>
-    &lt;p class="error-message milli island-1-4 push-0" id="dropdown-error">
-      &lt;span class="icon-label">Please select an item from the list&lt;/span>
-    &lt;/p>
-  &lt;/div>
+&lt;div class="push-1-2">
+  &lt;label class="push-1-4" for="name">Provinces&lt;/label>
+  &lt;select id="province" required aria-describedby="dropdown-error">
+    &lt;option value="">Alberta&lt;/option>
+    &lt;option value="">British Columbia&lt;/option>
+    &lt;option value="">Manitoba&lt;/option>
+    &lt;option value="">New Brunswick&lt;/option>
+    &lt;option value="">Newfoundland and Labrador&lt;/option>
+    &lt;option value="">Northwest Territories&lt;/option>
+    &lt;option value="">Nova Scotia&lt;/option>
+    &lt;option value="">Nunavut&lt;/option>
+    &lt;option value="">Ontario&lt;/option>
+    &lt;option value="">Prince Edward Island&lt;/option>
+    &lt;option value="">Quebec&lt;/option>
+    &lt;option value="">Saskatchewan&lt;/option>
+    &lt;option value="">Yukon&lt;/option>
+  &lt;/select>
+  &lt;p class="error-message milli island-1-4 push-0" id="dropdown-error">
+    &lt;span class="icon-label">Please select an item from the list&lt;/span>
+  &lt;/p>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="forms--error-form" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Error form</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-error-form-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/error-form" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/error-form.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
 
-  &lt;div class="unit xs-1 pad-t-1-4">
-    &lt;button class="btn" type="submit">Submit&lt;/button>
-  &lt;/div>
-&lt;/form>
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/error-form.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-error-form-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-error-form-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-error-form-code-sample-copy-chunk">&lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive"&gt;
+  &lt;h6 class="push-0 tera">
+     There are items that require your attention
+   &lt;/h6>
+&lt;/div>
 </pre></code>
             </div>
           </div>
@@ -1332,43 +1392,31 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-text-form-code-sample-copy-chunk">&lt;form class="island max-length" action="index.html" method="post" novalidate=""&gt;
-  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
-    &lt;h6 class="push-0 tera">
-     &lt;span class="icon-label">There are items that require your attention&lt;/span>
-   &lt;/h6>
+              <code><pre id="forms-text-form-code-sample-copy-chunk">&lt;div class="grid"&gt;
+  &lt;div class="unit xs-1 s-1 m-1-2 push-1-2 gutter-1-4">
+    &lt;label class="push-1-4" for="fname">First Name&lt;/label>
+    &lt;input type="fname" id="fname" required aria-describedby="fname-error">
+    &lt;p class="error-message milli island-1-4 push-0" id="fname-error">
+      &lt;span class="icon-label">Please provide a first name&lt;/span>
+    &lt;/p>
   &lt;/div>
 
-  &lt;div class="grid">
-    &lt;div class="unit xs-1 s-1 m-1-2 push-1-2 gutter-1-4">
-      &lt;label class="push-1-4" for="fname">First Name&lt;/label>
-      &lt;input type="fname" id="fname" required aria-describedby="fname-error">
-      &lt;p class="error-message milli island-1-4 push-0" id="fname-error">
-        &lt;span class="icon-label">Please provide a first name&lt;/span>
-      &lt;/p>
-    &lt;/div>
-
-    &lt;div class="unit xs-1 s-1 m-1-2 push-1-2 gutter-1-4">
-      &lt;label class="push-1-4" for="lname">Last Name&lt;/label>
-      &lt;input type="lname" id="lname" required aria-describedby="lname-error">
-      &lt;p class="error-message milli island-1-4 push-0" id="lname-error">
-        &lt;span class="icon-label">Please provide a last name&lt;/span>
-      &lt;/p>
-    &lt;/div>
-
-    &lt;div class="unit xs-1 s-1 m-1 push-1-2 gutter-1-4">
-      &lt;label class="push-1-4" for="lname">Address&lt;/label>
-      &lt;input type="address" id="address" required aria-describedby="address-error">
-      &lt;p class="error-message milli island-1-4 push-0" id="address-error">
-        &lt;span class="icon-label">Please provide an address&lt;/span>
-      &lt;/p>
-    &lt;/div>
-
-    &lt;div class="unit xs-1 pad-t-1-4">
-      &lt;button class="btn" type="submit">Submit&lt;/button>
-    &lt;/div>
+  &lt;div class="unit xs-1 s-1 m-1-2 push-1-2 gutter-1-4">
+    &lt;label class="push-1-4" for="lname">Last Name&lt;/label>
+    &lt;input type="lname" id="lname" required aria-describedby="lname-error">
+    &lt;p class="error-message milli island-1-4 push-0" id="lname-error">
+      &lt;span class="icon-label">Please provide a last name&lt;/span>
+    &lt;/p>
   &lt;/div>
-&lt;/form>
+
+  &lt;div class="unit xs-1 s-1 m-1 push-1-2 gutter-1-4">
+    &lt;label class="push-1-4" for="lname">Address&lt;/label>
+    &lt;input type="address" id="address" required aria-describedby="address-error">
+    &lt;p class="error-message milli island-1-4 push-0" id="address-error">
+      &lt;span class="icon-label">Please provide an address&lt;/span>
+    &lt;/p>
+  &lt;/div>
+&lt;/div>
 </pre></code>
             </div>
           </div>
