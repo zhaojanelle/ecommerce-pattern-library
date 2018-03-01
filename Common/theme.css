@@ -71,6 +71,7 @@ a {
   color: var(--color-primary-dark);
   font-weight: normal;
   text-decoration: none;
+  transition: all .2s ease 0s;
 }
 
 a:hover {
@@ -104,4 +105,8 @@ mark {
 cite {
   font-family: var(--font-secondary);
   color: var(--color-grey);
+}
+
+.small-arrow {
+  background-image: url("../../images/small-arrow.svg");
 }
