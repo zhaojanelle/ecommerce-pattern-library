@@ -992,15 +992,104 @@
     <h2 class="pattern-name exa push-1-4" style="color: #7ba57c; font-family: freight-text-pro, georgia, serif;">Forms</h2>
       <nav class="pattern-nav">
         <ol class="list-group-inline push-1-4 pad-b-1-4">
+            <li><a href="#forms--checkbox-form">Checkbox form</a></li>
             <li><a href="#forms--dropdown-form">Dropdown form</a></li>
+            <li><a href="#forms--newsletter-form">Newsletter form</a></li>
             <li><a href="#forms--text-form">Text form</a></li>
         </ol>
       </nav>
   </div>
 
+    <div class="pattern-desc milli island" >
+      <div class="max-length"><p>The forms provide a way for us to collect information from a customer during checkout and for newsletter purposes. They are also action oriented.</p>
+</div>
+    </div>
 
   
 
+    <div class="pattern-details " id="forms--checkbox-form" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Checkbox form</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-checkbox-form-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/checkbox-form" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/checkbox-form.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>The checkboxes are going to be used for terms and conditions and also for agreeing to copy shipping information over to billing information. It may also be used to sign users up to the newsletter during checkout.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/checkbox-form.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-checkbox-form-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-checkbox-form-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-checkbox-form-code-sample-copy-chunk">&lt;form class="island max-length" action="index.html" method="post" novalidate=""&gt;
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h6 class="push-0 tera">
+     &lt;span class="icon-label">There are items that require your attention&lt;/span>
+   &lt;/h6>
+  &lt;/div>
+
+  &lt;div class="push-1-2 pad-t-1-2">
+    &lt;input type="checkbox" id="terms" required aria-describedby="terms-error">
+    &lt;label for="terms">Do you agree to the Terms and Conditions?&lt;/label>
+    &lt;p class="error-message milli island-1-4 push-0" id="terms-error">
+      &lt;span class="icon-label">Please check the box to continue&lt;/span>
+    &lt;/p>
+  &lt;/div>
+
+  &lt;div class="unit xs-1 pad-t-1-4">
+    &lt;button class="btn" type="submit">Submit&lt;/button>
+  &lt;/div>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
     <div class="pattern-details " id="forms--dropdown-form" style="">
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
           <h3 class="pattern-name tera push-1-8">Dropdown form</h3>
@@ -1028,6 +1117,10 @@
                 </li>
             </ul>
         </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>The dropdown forms are primarily used for long lists such as choosing a country or province. It may also be used on product pages to select an attribute of the plant (ie. size).</p>
+</div>
+          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
@@ -1056,12 +1149,11 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-dropdown-form-code-sample-copy-chunk">&lt;form class="island" action="index.html" method="post"&gt;
+              <code><pre id="forms-dropdown-form-code-sample-copy-chunk">&lt;form class="island max-length" action="index.html" method="post" novalidate=""&gt;
   &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
-    &lt;h3 class="push-0">
-     &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-     &lt;span class="icon-label">There are items that require your attention&lt;/span>
-    &lt;/h3>
+    &lt;h6 class="push-0 tera">
+     &lt;span class="icon-label">Please select a province&lt;/span>
+   &lt;/h6>
   &lt;/div>
 
   &lt;div class="push-1-2">
@@ -1082,9 +1174,98 @@
       &lt;option value="">Yukon&lt;/option>
     &lt;/select>
     &lt;p class="error-message milli island-1-4 push-0" id="dropdown-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
       &lt;span class="icon-label">Please select an item from the list&lt;/span>
     &lt;/p>
+  &lt;/div>
+
+  &lt;div class="unit xs-1 pad-t-1-4">
+    &lt;button class="btn" type="submit">Submit&lt;/button>
+  &lt;/div>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="forms--newsletter-form" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Newsletter form</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-newsletter-form-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/newsletter-form" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/newsletter-form.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>The newsletter form is placed on the bottom of almost every page to collect customers newsletter. It is a great way to keep customers engaged even if they don&#39;t end up purchasing right away.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/newsletter-form.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-newsletter-form-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-newsletter-form-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-newsletter-form-code-sample-copy-chunk">&lt;form class="island max-length" action="index.html" method="post" novalidate=""&gt;
+
+  &lt;div class="grid">
+    &lt;div class="unit xs-1 s-1 m-2-3">
+      &lt;p>Sign up today to receive the latest news, tips, and arrivals&lt;/p>
+    &lt;/div>
+    &lt;div class="unit xs-1 s-1 m-1-3">
+      &lt;div class="grid">
+        &lt;div class="unit xs-2-3">
+          &lt;label class="push-1-4 newsletter-label" for="email">newsletter&lt;/label>
+          &lt;input type="email" id="email" required aria-describedby="email-error">
+          &lt;p class="error-message milli island-1-4 push-0" id="email-error">
+            &lt;span class="icon-label">Please enter a proper email&lt;/span>
+          &lt;/p>
+        &lt;/div>
+        &lt;div class="unit xs-1-3">
+          &lt;button class="btn btn-accent" type="submit">Submit&lt;/button>
+        &lt;/div>
+      &lt;/div>
+    &lt;/div>
   &lt;/div>
 &lt;/form>
 </pre></code>
@@ -1119,6 +1300,10 @@
                 </li>
             </ul>
         </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>The text form will make up the bulk of the form, collecting information such as billing and shipping addresses.</p>
+</div>
+          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">

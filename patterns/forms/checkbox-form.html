@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Dropdown Form</title>
+  <title>Checkbox Form</title>
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -19,29 +19,15 @@
 <form class="island max-length" action="index.html" method="post" novalidate>
   <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
     <h6 class="push-0 tera">
-     <span class="icon-label">Please select a province</span>
+     <span class="icon-label">There are items that require your attention</span>
    </h6>
   </div>
 
-  <div class="push-1-2">
-    <label class="push-1-4" for="name">Provinces</label>
-    <select id="province" required aria-describedby="dropdown-error">
-      <option value="">Alberta</option>
-      <option value="">British Columbia</option>
-      <option value="">Manitoba</option>
-      <option value="">New Brunswick</option>
-      <option value="">Newfoundland and Labrador</option>
-      <option value="">Northwest Territories</option>
-      <option value="">Nova Scotia</option>
-      <option value="">Nunavut</option>
-      <option value="">Ontario</option>
-      <option value="">Prince Edward Island</option>
-      <option value="">Quebec</option>
-      <option value="">Saskatchewan</option>
-      <option value="">Yukon</option>
-    </select>
-    <p class="error-message milli island-1-4 push-0" id="dropdown-error">
-      <span class="icon-label">Please select an item from the list</span>
+  <div class="push-1-2 pad-t-1-2">
+    <input type="checkbox" id="terms" required aria-describedby="terms-error">
+    <label for="terms">Do you agree to the Terms and Conditions?</label>
+    <p class="error-message milli island-1-4 push-0" id="terms-error">
+      <span class="icon-label">Please check the box to continue</span>
     </p>
   </div>
 

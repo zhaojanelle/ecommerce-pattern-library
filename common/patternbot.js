@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 1519878400149
+ * @version 1519880094398
  */
-const patternManifest_1519878400149 = {
+const patternManifest_1519880094398 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -686,16 +686,32 @@ const patternManifest_1519878400149 = {
       "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms",
       "html": [
         {
+          "name": "checkbox-form",
+          "namePretty": "Checkbox form",
+          "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms/checkbox-form.html",
+          "localPath": "patterns/forms/checkbox-form.html",
+          "readme": {}
+        },
+        {
           "name": "dropdown-form",
           "namePretty": "Dropdown form",
           "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms/dropdown-form.html",
-          "localPath": "patterns/forms/dropdown-form.html"
+          "localPath": "patterns/forms/dropdown-form.html",
+          "readme": {}
+        },
+        {
+          "name": "newsletter-form",
+          "namePretty": "Newsletter form",
+          "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms/newsletter-form.html",
+          "localPath": "patterns/forms/newsletter-form.html",
+          "readme": {}
         },
         {
           "name": "text-form",
           "namePretty": "Text form",
           "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms/text-form.html",
-          "localPath": "patterns/forms/text-form.html"
+          "localPath": "patterns/forms/text-form.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -736,5 +752,5 @@ const patternManifest_1519878400149 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519878400149);
+patternBotIncludes(patternManifest_1519880094398);
 }());

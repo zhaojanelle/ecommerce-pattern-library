@@ -47,3 +47,7 @@ input:focus {
   border-bottom: 2px solid var(--color-grey);
   background-color: #fff;
 }
+
+.newsletter-label {
+  display: none;
+}
