@@ -11,6 +11,9 @@ newsletter-form: |
 text-form: |
   The text form will make up the bulk of the form, collecting information such as billing and shipping addresses.
 
+error-form: |
+  This is the error message that shows up on top if a required element is empty.
+
 ---
 
 The forms provide a way for us to collect information from a customer during checkout and for newsletter purposes. They are also action oriented.
