@@ -10,49 +10,51 @@
   <link href="../../common/grid.css" rel="stylesheet">
   <link href="../../common/type.css" rel="stylesheet">
   <link href="../../common/theme.css" rel="stylesheet">
+  <link href="../buttons/buttons.css" rel="stylesheet">
   <link href="https://use.typekit.net/yus0tfo.css" rel="stylesheet">
   <link href="forms.css" rel="stylesheet">
 </head>
 <body>
 
-<form class="island" action="index.html" method="post">
+<form class="island max-length" action="index.html" method="post" novalidate>
   <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
-    <h3 class="push-0">
-     <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+    <h6 class="push-0 tera">
      <span class="icon-label">There are items that require your attention</span>
-    </h3>
+   </h6>
   </div>
 
   <div class="grid">
     <div class="unit xs-1 s-1 m-1-2 push-1-2 gutter-1-4">
       <label class="push-1-4" for="fname">First Name</label>
-      <input id="fname" required aria-describedby="fname-error">
+      <input type="fname" id="fname" required aria-describedby="fname-error">
       <p class="error-message milli island-1-4 push-0" id="fname-error">
-        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
         <span class="icon-label">Please provide a first name</span>
       </p>
     </div>
 
     <div class="unit xs-1 s-1 m-1-2 push-1-2 gutter-1-4">
       <label class="push-1-4" for="lname">Last Name</label>
-      <input id="lname" required aria-describedby="lname-error">
+      <input type="lname" id="lname" required aria-describedby="lname-error">
       <p class="error-message milli island-1-4 push-0" id="lname-error">
-        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
         <span class="icon-label">Please provide a last name</span>
       </p>
     </div>
 
     <div class="unit xs-1 s-1 m-1 push-1-2 gutter-1-4">
       <label class="push-1-4" for="lname">Address</label>
-      <input id="address" required aria-describedby="address-error">
+      <input type="address" id="address" required aria-describedby="address-error">
       <p class="error-message milli island-1-4 push-0" id="address-error">
-        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
         <span class="icon-label">Please provide an address</span>
       </p>
+    </div>
+
+    <div class="unit xs-1 pad-t-1-4">
+      <button class="btn" type="submit">Submit</button>
     </div>
   </div>
 </form>
 
+<script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
 
 </body>
 </html>
