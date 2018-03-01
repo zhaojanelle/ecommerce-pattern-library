@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 1519911366227
+ * @version 1519912356465
  */
-const patternManifest_1519911366227 = {
+const patternManifest_1519912356464 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -610,7 +610,8 @@ const patternManifest_1519911366227 = {
     "patterns": [
       "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/buttons",
       "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards",
-      "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms"
+      "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms",
+      "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/navigations-sections"
     ],
     "pages": []
   },
@@ -738,6 +739,47 @@ const patternManifest_1519911366227 = {
           "localPath": "patterns/forms/forms.css"
         }
       ]
+    },
+    {
+      "name": "navigations-sections",
+      "namePretty": "Navigations sections",
+      "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/navigations-sections",
+      "html": [
+        {
+          "name": "product-category-nav-bottom",
+          "namePretty": "Product category nav bottom",
+          "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/navigations-sections/product-category-nav-bottom.html",
+          "localPath": "patterns/navigations-sections/product-category-nav-bottom.html"
+        },
+        {
+          "name": "product-category-nav-side",
+          "namePretty": "Product category nav side",
+          "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/navigations-sections/product-category-nav-side.html",
+          "localPath": "patterns/navigations-sections/product-category-nav-side.html"
+        },
+        {
+          "name": "product-category-nav-top",
+          "namePretty": "Product category nav top",
+          "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/navigations-sections/product-category-nav-top.html",
+          "localPath": "patterns/navigations-sections/product-category-nav-top.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/navigations-sections/README.md",
+          "localPath": "patterns/navigations-sections/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "navigations-sections",
+          "namePretty": "Navigations sections",
+          "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/navigations-sections/navigations-sections.css",
+          "localPath": "patterns/navigations-sections/navigations-sections.css"
+        }
+      ]
     }
   ],
   "config": {
@@ -760,5 +802,5 @@ const patternManifest_1519911366227 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519911366227);
+patternBotIncludes(patternManifest_1519912356464);
 }());

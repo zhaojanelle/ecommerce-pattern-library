@@ -15,32 +15,30 @@
   <link href="forms.css" rel="stylesheet">
 </head>
 <body>
-  <form class="island max-length" action="index.html" method="post" novalidate>
-    <div class="grid">
-      <div class="unit xs-1 s-1 m-1-2 push-1-2 gutter-1-4">
-        <label class="push-1-4" for="fname">First Name</label>
-        <input type="fname" id="fname" required aria-describedby="fname-error">
-        <p class="error-message milli island-1-4 push-0" id="fname-error">
-          <span class="icon-label">Please provide a first name</span>
-        </p>
-      </div>
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1-2 push-1-2 gutter-1-4">
+      <label class="push-1-4" for="fname">First Name</label>
+      <input type="fname" id="fname" required aria-describedby="fname-error">
+      <p class="error-message milli island-1-4 push-0" id="fname-error">
+        <span class="icon-label">Please provide a first name</span>
+      </p>
+    </div>
 
-      <div class="unit xs-1 s-1 m-1-2 push-1-2 gutter-1-4">
-        <label class="push-1-4" for="lname">Last Name</label>
-        <input type="lname" id="lname" required aria-describedby="lname-error">
-        <p class="error-message milli island-1-4 push-0" id="lname-error">
-          <span class="icon-label">Please provide a last name</span>
-        </p>
-      </div>
+    <div class="unit xs-1 s-1 m-1-2 push-1-2 gutter-1-4">
+      <label class="push-1-4" for="lname">Last Name</label>
+      <input type="lname" id="lname" required aria-describedby="lname-error">
+      <p class="error-message milli island-1-4 push-0" id="lname-error">
+        <span class="icon-label">Please provide a last name</span>
+      </p>
+    </div>
 
-      <div class="unit xs-1 s-1 m-1 push-1-2 gutter-1-4">
-        <label class="push-1-4" for="lname">Address</label>
-        <input type="address" id="address" required aria-describedby="address-error">
-        <p class="error-message milli island-1-4 push-0" id="address-error">
-          <span class="icon-label">Please provide an address</span>
-        </p>
-      </div>
-    </form>
+    <div class="unit xs-1 s-1 m-1 push-1-2 gutter-1-4">
+      <label class="push-1-4" for="lname">Address</label>
+      <input type="address" id="address" required aria-describedby="address-error">
+      <p class="error-message milli island-1-4 push-0" id="address-error">
+        <span class="icon-label">Please provide an address</span>
+      </p>
+    </div>
   </div>
 
 <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
