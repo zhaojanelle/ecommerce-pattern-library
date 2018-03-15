@@ -188,9 +188,9 @@
                 </a>
               </li>
               <li role="presentation">
-                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="navigations-sections" href="#navigations-sections">
+                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="navigations" href="#navigations">
                   <div class="relative">
-                    <span>Navigations sections</span>
+                    <span>Navigations</span>
                     <i class="icon i-18 absolute pin-cr">
                       <svg><use xlink:href="#icon-active" /></svg>
                     </i>
@@ -842,6 +842,7 @@
     <h2 class="pattern-name exa push-1-4" style="color: #7ba57c; font-family: freight-text-pro, georgia, serif;">Cards</h2>
       <nav class="pattern-nav">
         <ol class="list-group-inline push-1-4 pad-b-1-4">
+            <li><a href="#cards--banner-home">Banner home</a></li>
             <li><a href="#cards--blog-card">Blog card</a></li>
             <li><a href="#cards--category-card">Category card</a></li>
         </ol>
@@ -855,6 +856,82 @@
 
   
 
+    <div class="pattern-details " id="cards--banner-home" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Banner home</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="cards-banner-home-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="cards/banner-home" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/cards/banner-home.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/cards/banner-home.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="cards-banner-home-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#cards-banner-home-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="cards-banner-home-code-sample-copy-chunk">&lt;div class="main-banner-home grid"&gt;
+  &lt;div class="unit xs-1 s-1 m-1-2 unit-push-m-1-2 banner-text unit-content-center island">
+    &lt;h1 class="banner-text-h1">Beautiful plants&lt;br>delivered to you.&lt;/h1>
+    &lt;div class="grid">
+      &lt;div class="unit xs-1 s-1 m-1 l-1-4">
+        &lt;img class="blue-line" src="../../images/blue-line.svg" alt="">
+      &lt;/div>
+      &lt;div class="unit xs-1 s-1 m-1 l-3-4">
+        &lt;p>Willow delivers plants straight to your door, within 2 business days. &lt;/p>
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class="unit xs-1 s-1 m-1-2 unit-pull-m-1-2">
+    &lt;img class="img-flex banner-plant" src="../../images/banner-home.png" alt="">
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
     <div class="pattern-details " id="cards--blog-card" style="">
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
           <h3 class="pattern-name tera push-1-8">Blog card</h3>
@@ -914,23 +991,22 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="cards-blog-card-code-sample-copy-chunk">&lt;div class="blog-card grid"&gt;
-  &lt;div class="unit xs-1 s-1 m-2-3">
-    &lt;div class="embed embed-4by3">
-      &lt;img class="embed-item" src="../../images/monstera-card-image.jpg" alt="">
+              <code><pre id="cards-blog-card-code-sample-copy-chunk">&lt;a href="#"&gt;
+  &lt;div class="blog-card grid">
+    &lt;div class="unit xs-1 s-1 m-2-3">
+      &lt;div class="embed embed-4by3">
+        &lt;img class="embed-item" src="../../images/monstera-card-image.jpg" alt="">
+      &lt;/div>
+    &lt;/div>
+    &lt;div class="blog-card-text gutter-1-2 unit-content-center unit xs-1 s-1 m-1-3">
+      &lt;h6 class="pad-t italic">Care Tips&lt;/h6>
+      &lt;h4>Fiddle leaf fig&lt;/h4>
+      &lt;p>Learn why this is our most popular plant and how to take care of them!&lt;/p>
+      &lt;span class="micro small-action-item">Read more &lt;i class="icon i-16 small-arrow">&lt;/i>&lt;/span>
+      &lt;p>&lt;/p>
     &lt;/div>
   &lt;/div>
-  &lt;div class="blog-card-text gutter-1-2 unit xs-1 s-1 m-1-3">
-    &lt;h6>Care Tips&lt;/h6>
-    &lt;h4>Fiddle leaf fig&lt;/h4>
-    &lt;p>Learn why this is our most popular plant and how to take care of them!&lt;/p>
-    &lt;a class="icon-link" href="#">
-      &lt;span class="milli small-action-item">Read more&lt;/span>
-      &lt;i class="icon i-16 small-arrow">&lt;/i>
-    &lt;/a>
-    &lt;p>&lt;/p>
-  &lt;/div>
-&lt;/div>
+&lt;/a>
 </pre></code>
             </div>
           </div>
@@ -1003,10 +1079,7 @@
   &lt;/div>
   &lt;div class="gutter-1-2 category-content unit xs-1 s-1 m-1">
     &lt;h3 class="push-none">Succulents&lt;/h3>
-    &lt;a class="icon-link" href="#">
-      &lt;span class="milli small-action-item">View more&lt;/span>
-      &lt;i class="icon i-16 small-arrow">&lt;/i>
-    &lt;/a>
+    &lt;span class="milli small-action-item">View more &lt;i class="icon i-16 small-arrow">&lt;/i>&lt;/span>
   &lt;/div>
 &lt;/div>
 </pre></code>
@@ -1656,14 +1729,14 @@
 
 </section>
 
-        <section class="pattern" id="navigations-sections" role="tabpanel" hidden aria-hidden="true" >
+        <section class="pattern" id="navigations" role="tabpanel" hidden aria-hidden="true" >
   <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" >
-    <h2 class="pattern-name exa push-1-4" style="color: #7ba57c; font-family: freight-text-pro, georgia, serif;">Navigations sections</h2>
+    <h2 class="pattern-name exa push-1-4" style="color: #7ba57c; font-family: freight-text-pro, georgia, serif;">Navigations</h2>
       <nav class="pattern-nav">
         <ol class="list-group-inline push-1-4 pad-b-1-4">
-            <li><a href="#navigations-sections--product-category-nav-bottom">Product category nav bottom</a></li>
-            <li><a href="#navigations-sections--product-category-nav-side">Product category nav side</a></li>
-            <li><a href="#navigations-sections--product-category-nav-top">Product category nav top</a></li>
+            <li><a href="#navigations--product-category-nav-bottom">Product category nav bottom</a></li>
+            <li><a href="#navigations--product-category-nav-side">Product category nav side</a></li>
+            <li><a href="#navigations--product-category-nav-top">Product category nav top</a></li>
         </ol>
       </nav>
   </div>
@@ -1671,26 +1744,26 @@
 
   
 
-    <div class="pattern-details " id="navigations-sections--product-category-nav-bottom" style="">
+    <div class="pattern-details " id="navigations--product-category-nav-bottom" style="">
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
           <h3 class="pattern-name tera push-1-8">Product category nav bottom</h3>
             <ul class="list-group-inline gutter absolute pin-cr">
                 <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="navigations-sections-product-category-nav-bottom-code-sample">
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="navigations-product-category-nav-bottom-code-sample">
                     <i class="icon i-18">
                       <svg><use xlink:href="#icon-code"></use></svg>
                     </i>
                   </button>
                 </li>
                 <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="navigations-sections/product-category-nav-bottom" hidden>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="navigations/product-category-nav-bottom" hidden>
                     <i class="icon i-18">
                       <svg><use xlink:href="#icon-copy"></use></svg>
                     </i>
                   </button>
                 </li>
                 <li>
-                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/navigations-sections/product-category-nav-bottom.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/navigations/product-category-nav-bottom.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
                     <i class="icon i-18">
                       <svg><use xlink:href="#icon-pop-out"></use></svg>
                     </i>
@@ -1703,7 +1776,7 @@
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
           <div class="resizeable-pattern relative" style="">
             <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
-            <iframe data-src="patterns/navigations-sections/product-category-nav-bottom.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+            <iframe data-src="patterns/navigations/product-category-nav-bottom.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
               <div class="resizeable-pattern-length">
                 <div class="resize-handle resize-handle-left" style="">
                   <i class="icon i-18">
@@ -1719,14 +1792,14 @@
           </div>
         </div>
 
-          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="navigations-sections-product-category-nav-bottom-code-sample" tabindex="-1">
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="navigations-product-category-nav-bottom-code-sample" tabindex="-1">
             <div class="pattern-code relative milli island-1-2" style="">
-              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#navigations-sections-product-category-nav-bottom-code-sample-copy-chunk" hidden>
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#navigations-product-category-nav-bottom-code-sample-copy-chunk" hidden>
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="navigations-sections-product-category-nav-bottom-code-sample-copy-chunk">&lt;div class="topnav grid"&gt;
+              <code><pre id="navigations-product-category-nav-bottom-code-sample-copy-chunk">&lt;div class="topnav grid"&gt;
   &lt;div class="unit unit-xs-content-center unit-s-content-center xs-1 s-1 m-1-3 unit-offset-m-1-3">
     &lt;ol class="list-group-inline">
       &lt;li>&lt;a class="product-link current-page" href="#">1&lt;/a>&lt;/li>
@@ -1746,26 +1819,26 @@
           </div>
       </div>
     </div>
-    <div class="pattern-details " id="navigations-sections--product-category-nav-side" style="">
+    <div class="pattern-details " id="navigations--product-category-nav-side" style="">
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
           <h3 class="pattern-name tera push-1-8">Product category nav side</h3>
             <ul class="list-group-inline gutter absolute pin-cr">
                 <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="navigations-sections-product-category-nav-side-code-sample">
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="navigations-product-category-nav-side-code-sample">
                     <i class="icon i-18">
                       <svg><use xlink:href="#icon-code"></use></svg>
                     </i>
                   </button>
                 </li>
                 <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="navigations-sections/product-category-nav-side" hidden>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="navigations/product-category-nav-side" hidden>
                     <i class="icon i-18">
                       <svg><use xlink:href="#icon-copy"></use></svg>
                     </i>
                   </button>
                 </li>
                 <li>
-                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/navigations-sections/product-category-nav-side.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/navigations/product-category-nav-side.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
                     <i class="icon i-18">
                       <svg><use xlink:href="#icon-pop-out"></use></svg>
                     </i>
@@ -1778,7 +1851,7 @@
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
           <div class="resizeable-pattern relative" style="">
             <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
-            <iframe data-src="patterns/navigations-sections/product-category-nav-side.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+            <iframe data-src="patterns/navigations/product-category-nav-side.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
               <div class="resizeable-pattern-length">
                 <div class="resize-handle resize-handle-left" style="">
                   <i class="icon i-18">
@@ -1794,14 +1867,14 @@
           </div>
         </div>
 
-          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="navigations-sections-product-category-nav-side-code-sample" tabindex="-1">
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="navigations-product-category-nav-side-code-sample" tabindex="-1">
             <div class="pattern-code relative milli island-1-2" style="">
-              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#navigations-sections-product-category-nav-side-code-sample-copy-chunk" hidden>
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#navigations-product-category-nav-side-code-sample-copy-chunk" hidden>
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="navigations-sections-product-category-nav-side-code-sample-copy-chunk">&lt;div class="sidenav"&gt;
+              <code><pre id="navigations-product-category-nav-side-code-sample-copy-chunk">&lt;div class="sidenav"&gt;
   &lt;ul class="list-group">
     &lt;li>&lt;a class="current-page" href="#">Tropical&lt;/a>&lt;/li>
     &lt;li>&lt;a class="product-link" href="#">Succulents&lt;/a>&lt;/li>
@@ -1814,26 +1887,26 @@
           </div>
       </div>
     </div>
-    <div class="pattern-details " id="navigations-sections--product-category-nav-top" style="">
+    <div class="pattern-details " id="navigations--product-category-nav-top" style="">
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
           <h3 class="pattern-name tera push-1-8">Product category nav top</h3>
             <ul class="list-group-inline gutter absolute pin-cr">
                 <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="navigations-sections-product-category-nav-top-code-sample">
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="navigations-product-category-nav-top-code-sample">
                     <i class="icon i-18">
                       <svg><use xlink:href="#icon-code"></use></svg>
                     </i>
                   </button>
                 </li>
                 <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="navigations-sections/product-category-nav-top" hidden>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="navigations/product-category-nav-top" hidden>
                     <i class="icon i-18">
                       <svg><use xlink:href="#icon-copy"></use></svg>
                     </i>
                   </button>
                 </li>
                 <li>
-                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/navigations-sections/product-category-nav-top.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/navigations/product-category-nav-top.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
                     <i class="icon i-18">
                       <svg><use xlink:href="#icon-pop-out"></use></svg>
                     </i>
@@ -1846,7 +1919,7 @@
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
           <div class="resizeable-pattern relative" style="">
             <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
-            <iframe data-src="patterns/navigations-sections/product-category-nav-top.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+            <iframe data-src="patterns/navigations/product-category-nav-top.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
               <div class="resizeable-pattern-length">
                 <div class="resize-handle resize-handle-left" style="">
                   <i class="icon i-18">
@@ -1862,14 +1935,14 @@
           </div>
         </div>
 
-          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="navigations-sections-product-category-nav-top-code-sample" tabindex="-1">
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="navigations-product-category-nav-top-code-sample" tabindex="-1">
             <div class="pattern-code relative milli island-1-2" style="">
-              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#navigations-sections-product-category-nav-top-code-sample-copy-chunk" hidden>
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#navigations-product-category-nav-top-code-sample-copy-chunk" hidden>
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="navigations-sections-product-category-nav-top-code-sample-copy-chunk">&lt;div class="topnav grid"&gt;
+              <code><pre id="navigations-product-category-nav-top-code-sample-copy-chunk">&lt;div class="topnav grid"&gt;
   &lt;div class="unit unit-xs-hidden unit-s-hidden m-1-3 l-1-3">
     &lt;input type="text" placeholder="Search..">
   &lt;/div>

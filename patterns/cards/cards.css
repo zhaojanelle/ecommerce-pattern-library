@@ -3,6 +3,7 @@
   text-align: center;
   transition: all .2s ease 0s;
   background-color: var(--color-lighter-grey);
+  max-width: 861px;
 }
 
 .blog-card:hover {
@@ -11,11 +12,62 @@
 
 .category-card {
   position: relative;
-  max-width: 544px;
+  max-width: 543px;
 }
 
 .category-content {
   position: absolute;
   top: 50px;
   left: 50px;
+}
+
+.small-action-item:hover {
+  border-bottom: none;
+}
+
+.main-banner-home {
+  background-image: url("../../images/banner-bg-peach.svg");
+  background-size: cover;
+  background-position: 50%;
+  overflow: hidden;
+}
+
+.banner-text h1 {
+  top: 200px;
+  font-weight: 300;
+}
+
+.banner-plant {
+  transform: translateY(0px);
+}
+
+.banner-text-h1 {
+  font-size: 2.15rem;
+  line-height: 1.3;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-plant {
+    transform: translateY(20px);
+  }
+
+  .banner-text-h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-plant {
+    transform: translateY(40px);
+  }
+
+  .banner-text-h1 {
+    font-size: 4rem;
+  }
+}
+
+.blue-line {
+  max-width: 95px;
 }
