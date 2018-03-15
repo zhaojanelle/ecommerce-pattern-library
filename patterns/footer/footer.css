@@ -1,0 +1,9 @@
+.footer-link {
+  color: var(--color-dark-grey);
+  font-weight: normal;
+}
+
+.footer-link:hover {
+  border-bottom: 0;
+  color: var(--color-grey);
+}
