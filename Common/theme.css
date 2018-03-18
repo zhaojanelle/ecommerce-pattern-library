@@ -15,6 +15,7 @@
 
 html {
   font-family: var(--font-primary);
+  -webkit-font-smoothing: antialiased;
 }
 
 h1 {
