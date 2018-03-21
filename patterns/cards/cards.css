@@ -3,7 +3,7 @@
   text-align: center;
   transition: all .2s ease 0s;
   background-color: var(--color-lighter-grey);
-  max-width: 861px;
+  max-width: 800px;
 }
 
 .blog-card:hover {
@@ -11,15 +11,23 @@
 }
 
 .category-card {
-  position: relative;
   max-width: 543px;
 }
 
 .category-content {
-  position: absolute;
-  top: 50px;
-  left: 50px;
+  bottom: 30px;
+  left: 20px;
 }
+
+@media only screen and (min-width: 32em) {
+
+  .category-content {
+    top: 50px;
+    left: 50px;
+  }
+
+}
+
 
 .small-action-item:hover {
   border-bottom: none;
