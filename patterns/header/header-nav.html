@@ -15,14 +15,19 @@
 </head>
 <body>
 
-  <header class="zindex-1 nav-dark pad-b-1-2">
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#main">Skip to the main content</a></li>
+  </ul>
+
+  <header class="zindex-1 nav-dark pad-b-1-2" role="banner">
       <div class="section-heading gutter">
         <a class="logo-link" href="index.html">
           <img src="../../images/logo-64.svg" alt="">
         </a>
       </div>
       <div class="section-nav wrapper">
-        <nav role="navigation" id="nav">
+        <nav role="navigation" id="nav" role="navigation">
           <input type="checkbox" class="nav-check" id="nav-check">
           <label class="nav-label" for="nav-check">
             <img class="nav-open" src="../../images/ham-open.svg" alt="Open Navigation">
