@@ -85,7 +85,7 @@ a:focus {
   outline: 3px solid var(--color-dark-grey);
 }
 
-.skip-links a{
+.skip-links a {
   position: absolute;
   top: -3em;
 }

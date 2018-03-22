@@ -5,7 +5,7 @@ header {
   left: 0;
   top: 0;
   right: 0;
-  transition: background-color 0.5s ease-in-out;
+  transition: background-color .5s ease-in-out;
   background-color: transparent;
 }
 
@@ -72,6 +72,7 @@ header {
 }
 
 @media only screen and (min-width: 38em) {
+
   .nav-open, .nav-close {
     display: none;
   }
@@ -117,6 +118,7 @@ header {
     padding-left: .5rem;
     padding-right: .5rem;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -125,4 +127,5 @@ header {
     float: left;
     width: 35%;
   }
+
 }

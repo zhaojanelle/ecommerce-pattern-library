@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 1521723206580
+ * @version 1521724559843
  */
-const patternManifest_1521723206579 = {
+const patternManifest_1521724559843 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -860,19 +860,22 @@ const patternManifest_1521723206579 = {
           "name": "product-category-nav-bottom",
           "namePretty": "Product category nav bottom",
           "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/navigations/product-category-nav-bottom.html",
-          "localPath": "patterns/navigations/product-category-nav-bottom.html"
+          "localPath": "patterns/navigations/product-category-nav-bottom.html",
+          "readme": {}
         },
         {
           "name": "product-category-nav-side",
           "namePretty": "Product category nav side",
           "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/navigations/product-category-nav-side.html",
-          "localPath": "patterns/navigations/product-category-nav-side.html"
+          "localPath": "patterns/navigations/product-category-nav-side.html",
+          "readme": {}
         },
         {
           "name": "product-category-nav-top",
           "namePretty": "Product category nav top",
           "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/navigations/product-category-nav-top.html",
-          "localPath": "patterns/navigations/product-category-nav-top.html"
+          "localPath": "patterns/navigations/product-category-nav-top.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -913,5 +916,5 @@ const patternManifest_1521723206579 = {
   }
 };
 
-patternBotIncludes(patternManifest_1521723206579);
+patternBotIncludes(patternManifest_1521724559843);
 }());
