@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 1521724559843
+ * @version 1521727803078
  */
-const patternManifest_1521724559843 = {
+const patternManifest_1521727803078 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -660,7 +660,13 @@ const patternManifest_1521724559843 = {
       "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/header",
       "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/navigations"
     ],
-    "pages": []
+    "pages": [
+      {
+        "name": "home.html",
+        "namePretty": "Home",
+        "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/pages/home.html"
+      }
+    ]
   },
   "userPatterns": [
     {
@@ -832,6 +838,12 @@ const patternManifest_1521724559843 = {
           "namePretty": "Header nav",
           "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/header/header-nav.html",
           "localPath": "patterns/header/header-nav.html"
+        },
+        {
+          "name": "skip-links",
+          "namePretty": "Skip links",
+          "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/header/skip-links.html",
+          "localPath": "patterns/header/skip-links.html"
         }
       ],
       "md": [
@@ -916,5 +928,5 @@ const patternManifest_1521724559843 = {
   }
 };
 
-patternBotIncludes(patternManifest_1521724559843);
+patternBotIncludes(patternManifest_1521727803078);
 }());
