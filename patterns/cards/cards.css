@@ -4,10 +4,12 @@
   transition: all .2s ease 0s;
   background-color: var(--color-lighter-grey);
   max-width: 800px;
+  margin: 0 auto;
 }
 
 .blog-card:hover {
   transform: translateY(-2px);
+  border-bottom: 0;
 }
 
 .category-card {

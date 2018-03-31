@@ -5,6 +5,7 @@
   --color-secondary: #0055a6;
   --color-accent: #dd715d;
   --color-accent-light: #de9f38;
+  --color-accent-lighter: #FAF3EA;
   --color-lighter-grey: #f7f7f7;
   --color-light-grey: #b7b5b2;
   --color-grey: #7e7e7e;
@@ -59,6 +60,12 @@ h6 {
   font-family: var(--font-secondary);
   color: var(--color-grey);
   font-weight: normal;
+}
+
+.small-action-item:hover {
+  font-family: var(--font-secondary);
+  color: var(--color-dark-grey);
+  border-bottom: 3px var(--color-accent-light) solid;
 }
 
 p {
@@ -123,4 +130,12 @@ cite {
 
 .small-arrow {
   background-image: url("../../images/small-arrow.svg");
+}
+
+hr {
+  border-top: 1px solid var(--color-light-grey);
+}
+
+.bg-peach {
+  background-color: var(--color-accent-lighter);
 }

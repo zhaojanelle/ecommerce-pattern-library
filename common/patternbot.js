@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 1521729909627
+ * @version 1522534714987
  */
-const patternManifest_1521729909627 = {
+const patternManifest_1522534714986 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -509,6 +509,13 @@ const patternManifest_1521729909627 = {
             "rgba": "rgba(222, 159, 56, 1)"
           },
           {
+            "name": "--color-accent-lighter",
+            "namePretty": "Accent lighter",
+            "raw": "#FAF3EA",
+            "hex": "#FAF3EA",
+            "rgba": "rgba(250, 243, 234, 1)"
+          },
+          {
             "name": "--color-lighter-grey",
             "namePretty": "Lighter grey",
             "raw": "#f7f7f7",
@@ -592,6 +599,7 @@ const patternManifest_1521729909627 = {
         "--color-secondary": "#0055a6",
         "--color-accent": "#dd715d",
         "--color-accent-light": "#de9f38",
+        "--color-accent-lighter": "#FAF3EA",
         "--color-lighter-grey": "#f7f7f7",
         "--color-light-grey": "#b7b5b2",
         "--color-grey": "#7e7e7e",
@@ -615,18 +623,6 @@ const patternManifest_1521729909627 = {
       "bodyRaw": "Willow is a digital only ecommerce shop that delivers beautiful plants to people's homes.\n",
       "bodyBasic": "Willow is a digital only ecommerce shop that delivers beautiful plants to people's homes."
     },
-    "icons": [
-      "ham-open",
-      "form-downarrow",
-      "ham-close",
-      "instagram",
-      "logo-16",
-      "logo-32",
-      "logo-64",
-      "logo-256",
-      "small-arrow",
-      "twitter"
-    ],
     "interfaceColours": {
       "primary": 0,
       "opposite": 255
@@ -640,7 +636,7 @@ const patternManifest_1521729909627 = {
       "theme": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/common/theme.css"
     },
     "imagesParsable": {
-      "icons": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/images/icons.svg"
+      "icons": false
     },
     "logos": {
       "sizeLarge": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/images/logo-256.svg",
@@ -928,5 +924,5 @@ const patternManifest_1521729909627 = {
   }
 };
 
-patternBotIncludes(patternManifest_1521729909627);
+patternBotIncludes(patternManifest_1522534714986);
 }());
