@@ -139,3 +139,8 @@ hr {
 .bg-peach {
   background-color: var(--color-accent-lighter);
 }
+
+.img-most-pop {
+  max-width: 300px;
+  display: block;
+}

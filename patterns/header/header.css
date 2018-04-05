@@ -72,6 +72,10 @@ header {
   display: block;
 }
 
+.logo-link:hover {
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 38em) {
 
   .nav-open, .nav-close {
