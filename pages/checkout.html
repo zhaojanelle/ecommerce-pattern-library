@@ -44,6 +44,7 @@
           <script type="application/json" data-pattern="forms/text-form">
             {
               "label": "Address"
+              ".error-message span": "Please provide an address"
             }
           </script>
         </div>
@@ -54,14 +55,53 @@
             }
           </script>
         </div>
-        <div class="unit xs-1 s-1 m-1 gutter-1-2 push-1-2">
+        <div class="unit xs-1 s-1 m-1-2 gutter-1-2 push-1-2">
           <script type="application/json" data-pattern="forms/text-form">
             {
-              "label": "Company (optional)"
+              "label": "City"
+              ".error-message span": "Please provide a city"
             }
           </script>
         </div>
+        <div class="unit xs-1 s-1 m-1-2 gutter-1-2 push-1-2">
+          <script type="application/json" data-pattern="forms/dropdown-form"></script>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 gutter-1-2 push-1-2">
+          <script type="application/json" data-pattern="forms/text-form">
+            {
+              "label": "Postal Code"
+              ".error-message span": "Please provide a postal code"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 gutter-1-2 push-1-2">
+          <script type="application/json" data-pattern="forms/text-form">
+            {
+              "label": "Country"
+              ".error-message span": "Please provide a country"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1 gutter-1-2 push">
+          <script type="application/json" data-pattern="forms/text-form">
+            {
+              "label": "Phone"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 gutter-1-2 push-1-2">
+          <hr></hr>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 push-2">
+          <a href="#"><h6>< Return to cart</h6></a>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 push-2 text-right">
+          <a class="btn" href="#">Continue to billing</a>
+        </div>
       </div>
+    </div>
+    <div class="unit xs-1 s-1">
+      <hr></hr>
     </div>
   </div>
   <script type="application/json" data-pattern="footer/footer"></script>
