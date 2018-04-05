@@ -56,6 +56,10 @@ h6 {
   font-weight: normal;
 }
 
+.font-blue {
+  color: var(--color-secondary);
+}
+
 .small-action-item {
   font-family: var(--font-secondary);
   color: var(--color-grey);
