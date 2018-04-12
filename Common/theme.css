@@ -60,6 +60,10 @@ h6 {
   color: var(--color-secondary);
 }
 
+.font-orange {
+  color: var(--color-accent);
+}
+
 .font-price {
   color: var(--color-accent);
   font-weight: bold;
@@ -81,6 +85,7 @@ p {
   font-family: var(--font-primary);
   color: var(--color-dark-grey);
   font-weight: normal;
+  line-height: 1.2;
 }
 
 a {

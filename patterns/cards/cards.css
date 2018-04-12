@@ -159,3 +159,9 @@
   }
 
 }
+
+.plant-id-card {
+  background-color: var(--color-primary-light);
+  max-width: 803px;
+  margin: 0 auto;
+}
