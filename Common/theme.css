@@ -110,6 +110,18 @@ a:focus {
   top: 0;
 }
 
+.product-link {
+  color: var(--color-grey);
+  transition: all .2s ease 0s;
+}
+
+.product-link:hover {
+  color: var(--color-primary-dark);
+  border-bottom: 0;
+  transform: translateY(-2px);
+  display: inline-block;
+}
+
 em {
   font-weight: bold;
   font-style: normal;
