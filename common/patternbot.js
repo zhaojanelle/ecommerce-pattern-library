@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 1523504193620
+ * @version 1523504387835
  */
-const patternManifest_1523504193620 = {
+const patternManifest_1523504387834 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -713,19 +713,22 @@ const patternManifest_1523504193620 = {
           "name": "banner-home",
           "namePretty": "Banner home",
           "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards/banner-home.html",
-          "localPath": "patterns/cards/banner-home.html"
+          "localPath": "patterns/cards/banner-home.html",
+          "readme": {}
         },
         {
           "name": "banner-product-list",
           "namePretty": "Banner product list",
           "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards/banner-product-list.html",
-          "localPath": "patterns/cards/banner-product-list.html"
+          "localPath": "patterns/cards/banner-product-list.html",
+          "readme": {}
         },
         {
           "name": "banner-product",
           "namePretty": "Banner product",
           "path": "/Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards/banner-product.html",
-          "localPath": "patterns/cards/banner-product.html"
+          "localPath": "patterns/cards/banner-product.html",
+          "readme": {}
         },
         {
           "name": "blog-card",
@@ -946,5 +949,5 @@ const patternManifest_1523504193620 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523504193620);
+patternBotIncludes(patternManifest_1523504387834);
 }());
