@@ -143,6 +143,7 @@ cite {
 
 hr {
   border-top: 1px solid var(--color-light-grey);
+  margin: 0;
 }
 
 .bg-peach {
@@ -175,6 +176,22 @@ hr {
   .checkout-border {
     border-top: 0;
     border-right: 1px solid var(--color-light-grey);
+  }
+
+}
+
+.checkout-type {
+  color: var(--color-dark-grey);
+}
+
+.space-right {
+  padding-right: 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .space-right {
+    padding-right: 1.3rem;
   }
 
 }

@@ -16,7 +16,7 @@
     <h4 class="italic mega font-blue">1 Item - $10.00</h4>
   </div>
   <div class="grid wrapper push-2">
-    <div class="unit xs-1 s-1 m-1-2 unit-push-m-1-2">
+    <div class="unit xs-1 s-1 m-1-2 unit-push-m-1-2 gutter pad-top">
       <h5 class="kilo">Your bag</h5>
       <div class="media push-1-2">
         <div class="media-img push-r">
@@ -27,36 +27,44 @@
           <h5 class="font-price strong">$10.00</h5>
         </div>
       </div>
-      <div class="grid grid-bottom">
-        <div class="unit xs-1 s-1 m-1-2">
+      <div class="grid grid-bottom push">
+        <div class="unit xs-1-2 s-1-2 m-1-2">
           <script type="application/json" data-pattern="forms/text-form">
             {
               "label": "Gift card or discount code"
             }
           </script>
         </div>
-        <div class="unit xs-1 s-1 m-1-2">
+        <div class="unit xs-1-2 s-1-2 m-1-2">
           <a class="btn" href="#">Apply</a>
         </div>
-        <div class="unit xs-1 s-1">
-          <h5>Subtotal</h5>
-          <h5>Shipping</h5>
-          <h5>Total</h5>
+      </div>
+      <div class="grid">
+        <div class="unit xs-1-2 s-1-2">
+          <h6 class="push-none checkout-type">Subtotal</h5>
+          <h6 class="push-none checkout-type push-1-4">Shipping</h5>
+          <div class="push-0">
+            <hr></hr>
+          </div>
+          <h6 class="push checkout-type">Total</h5>
         </div>
-        <div class="unit xs-1 s-1">
-          <h5>$10.00</h5>
-          <h5>Shipping</h5>
-          <h5>Total</h5>
+        <div class="unit xs-1-2 s-1-2 text-right">
+          <h6 class="push-none checkout-type">$10.00</h5>
+          <h6 class="push-none checkout-type push-1-4">$5.00</h5>
+          <div class="push-0">
+            <hr></hr>
+          </div>
+          <h6 class="push checkout-type">$15.00</h5>
         </div>
       </div>
     </div>
-    <div class="unit xs-1 s-1 m-1-2 unit-pull-m-1-2 checkout-border push">
-      <h5 class="kilo">Shipping address</h5>
-      <div class="grid">
-        <div class="unit xs-1 s-1 m-1-2 gutter-1-2 push-1-2">
+    <div class="unit xs-1 s-1 m-1-2 unit-pull-m-1-2 checkout-border push pad-top">
+      <div class="grid gutter">
+        <h5 class="kilo unit xs-1">Shipping address</h5>
+        <div class="unit xs-1 s-1 m-1-2 push-1-2 space-right">
           <script type="application/json" data-pattern="forms/text-form"></script>
         </div>
-        <div class="unit xs-1 s-1 m-1-2 gutter-1-2 push-1-2">
+        <div class="unit xs-1 s-1 m-1-2 push-1-2">
           <script type="application/json" data-pattern="forms/text-form">
             {
               "label": "Last name",
@@ -64,63 +72,63 @@
             }
           </script>
         </div>
-        <div class="unit xs-1 s-1 m-1 gutter-1-2 push-1-2">
+        <div class="unit xs-1 s-1 m-1 push-1-2">
           <script type="application/json" data-pattern="forms/text-form">
             {
               "label": "Company (optional)"
             }
           </script>
         </div>
-        <div class="unit xs-1 s-1 m-2-3 gutter-1-2 push-1-2">
+        <div class="unit xs-1 s-1 m-2-3 push-1-2 space-right">
           <script type="application/json" data-pattern="forms/text-form">
             {
-              "label": "Address"
+              "label": "Address",
               ".error-message span": "Please provide an address"
             }
           </script>
         </div>
-        <div class="unit xs-1 s-1 m-1-3 gutter-1-2 push-1-2">
+        <div class="unit xs-1 s-1 m-1-3 push-1-2">
           <script type="application/json" data-pattern="forms/text-form">
             {
               "label": "Apt, suite, etc"
             }
           </script>
         </div>
-        <div class="unit xs-1 s-1 m-1-2 gutter-1-2 push-1-2">
+        <div class="unit xs-1 s-1 m-1-2 push-1-2 space-right">
           <script type="application/json" data-pattern="forms/text-form">
             {
-              "label": "City"
+              "label": "City",
               ".error-message span": "Please provide a city"
             }
           </script>
         </div>
-        <div class="unit xs-1 s-1 m-1-2 gutter-1-2 push-1-2">
+        <div class="unit xs-1 s-1 m-1-2 push-1-2">
           <script type="application/json" data-pattern="forms/dropdown-form"></script>
         </div>
-        <div class="unit xs-1 s-1 m-1-2 gutter-1-2 push-1-2">
+        <div class="unit xs-1 s-1 m-1-2 push-1-2 space-right">
           <script type="application/json" data-pattern="forms/text-form">
             {
-              "label": "Postal Code"
+              "label": "Postal Code",
               ".error-message span": "Please provide a postal code"
             }
           </script>
         </div>
-        <div class="unit xs-1 s-1 m-1-2 gutter-1-2 push-1-2">
+        <div class="unit xs-1 s-1 m-1-2 push-1-2">
           <script type="application/json" data-pattern="forms/text-form">
             {
-              "label": "Country"
+              "label": "Country",
               ".error-message span": "Please provide a country"
             }
           </script>
         </div>
-        <div class="unit xs-1 s-1 m-1 gutter-1-2 push">
+        <div class="unit xs-1 s-1 m-1 push-1-2">
           <script type="application/json" data-pattern="forms/text-form">
             {
               "label": "Phone"
             }
           </script>
         </div>
-        <div class="unit xs-1 s-1 gutter-1-2 push-1-2">
+        <div class="unit xs-1 s-1 push">
           <hr></hr>
         </div>
         <div class="unit xs-1 s-1 m-1-2 push-2">
@@ -132,7 +140,7 @@
       </div>
     </div>
     <div class="unit xs-1 s-1">
-      <hr></hr>
+      <hr class="push"></hr>
     </div>
   </div>
   <script type="application/json" data-pattern="footer/footer"></script>
