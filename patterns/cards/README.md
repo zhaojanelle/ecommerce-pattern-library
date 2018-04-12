@@ -13,6 +13,9 @@ banner-product-list: |
 
 banner-product: |
   This is the main banner that goes on top of a product listing page.
+
+product-id: |
+  This is a plant care ID that you put below the product banner on the product listing page.
 ---
 
 The cards provide a way for us to highlight important pieces of information & separate them from basic body content. They are also action oriented.
