@@ -2,7 +2,7 @@
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   font-family: Futura-pt;
-  font-weight: 400;
+  font-weight: normal;
   color: #fff;
   border-radius: 0;
   box-shadow: 0 15px 15px rgba(0, 0, 0, .1);
