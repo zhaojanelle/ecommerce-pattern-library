@@ -19,6 +19,8 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
+/* typography */
+
 h1 {
   font-family: var(--font-secondary);
   color: var(--color-secondary);
@@ -153,6 +155,8 @@ cite {
   font-family: var(--font-secondary);
   color: var(--color-grey);
 }
+
+/* items */
 
 .small-arrow {
   background-image: url("../../images/small-arrow.svg");
