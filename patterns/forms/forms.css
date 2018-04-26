@@ -35,8 +35,9 @@ label {
 }
 
 select {
-  border: 2px solid var(--color-grey);
+  border: 0;
   background-image: url("../../images/form-downarrow.svg");
+  background-color: var(--color-lighter-grey);
   background-size: 13px auto;
   height: calc(2rem + .175rem + .175rem);
 }
