@@ -1,4 +1,1 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 768">
-  <title>Artboard 1</title>
-  <polygon points="0 404 0 768 1366 768 1366 609 0 404" fill="#fef2e4"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 768" width="1366" height="768"><path fill="#fef2e4" d="M0 404v364h1366V609L0 404z"/></svg>

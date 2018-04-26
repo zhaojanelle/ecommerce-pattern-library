@@ -1,4 +1,1 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 2">
-  <title>blue-line</title>
-  <line x1="1" y1="1" x2="96" y2="1" fill="none" stroke="#0055a6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 2" width="97" height="2"><path fill="none" stroke="#0055a6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M1 1h95"/></svg>

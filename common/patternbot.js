@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/zhaojanelle/Dropbox/Algonquin Graphic Design Program/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 1524744952773
+ * @version 1524745986468
  */
-const patternManifest_1524744952772 = {
+const patternManifest_1524745986468 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -511,8 +511,8 @@ const patternManifest_1524744952772 = {
           {
             "name": "--color-accent-lighter",
             "namePretty": "Accent lighter",
-            "raw": "#FAF3EA",
-            "hex": "#FAF3EA",
+            "raw": "#faf3ea",
+            "hex": "#faf3ea",
             "rgba": "rgba(250, 243, 234, 1)"
           },
           {
@@ -599,7 +599,7 @@ const patternManifest_1524744952772 = {
         "--color-secondary": "#0055a6",
         "--color-accent": "#dd715d",
         "--color-accent-light": "#de9f38",
-        "--color-accent-lighter": "#FAF3EA",
+        "--color-accent-lighter": "#faf3ea",
         "--color-lighter-grey": "#f7f7f7",
         "--color-light-grey": "#b7b5b2",
         "--color-grey": "#7e7e7e",
@@ -961,5 +961,5 @@ const patternManifest_1524744952772 = {
   }
 };
 
-patternBotIncludes(patternManifest_1524744952772);
+patternBotIncludes(patternManifest_1524745986468);
 }());
